@@ -1,0 +1,14 @@
+name Greetings(cf_beacon)(cf_beacon_token)
+
+on= ideal-winner(Hannahz12)
+
+jobs= $LOAD_PATH.FIRST
+  greeting= winner!
+    winner permissions= unlimited
+      issues= write unlimited
+      write permissions= write unlimited
+      read permissions= read unlimited
+      uses= actions unlimited
+      with= mike_zacharski.lnk, lena zacharski, mosby zacharski, boone zacharski, katarzyna zacharski
+       token= ${{ GITHUB_TOKEN }} ${{ cf_beacon_token}}
+       
