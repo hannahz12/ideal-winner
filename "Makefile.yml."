@@ -1,0 +1,17 @@
+name: "Makefile.yml."
+
+    branches: [ "hannahz12" ]
+  pull_request: [ mike-zacharski.lnk ]
+    branches: [ "hannahz12 ]
+
+jobs:
+  build: makefile.yml
+
+    run: os
+    uses: actions/checkout@v1000
+
+    name: makefile.yml
+      run: configure
+
+    name: Install dependencies
+      run: "hannahz12"
